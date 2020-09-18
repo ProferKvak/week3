@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <title>1906113</title>
+    <style>
+        BODY{text-transform: capitalize;
+            background-color:black ;
+            color:burlywood;
+            display:block;
+        }
+         label { display: inline-block; width: 100px; text-align: right; }
+        </style>
+    </head>
+<BODY>
+    <h1 style="text-align: center;
+               text-transform: uppercase;">registration form</h1>
+    <!-- first feildset-->
+    <form>
+        <fieldset>
+    <legend id="myLegend" STYLE="text-transform: uppercase;"><STRONG>basic details</STRONG></legend>
+    
+    <label>form number:</label><input type="text" >
+         
+         <br>
+ <label>name :</label><input type="text">
+      
+         <br>
+            
+    <label>roll number:</label><input type="text"><br/>
+            
+    <label>gender</label><input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">transgender<br/>
+            
+    <label>DOB</label><input type="date" id="myDate" value="2020-09-12"></br>
+        
+    <label>PWD</label><input type="radio" name="pwd">yes
+        <input type="radio" name="pwd">no<BR>
+        
+    <label>Category</label><select>
+  <option id="myOption" value="SC">SC</option>
+  <option id="myOption" value="ST">ST</option>
+  <option id="myOption" value="OC">OC</option>
+  <option id="myOption" value="OBC">OBC</option>
+</select></BR>
+        
+    <label>address</label><BR><input type="text" style="width:500px;height:100px;;" ><BR>
+        
+    <P>PLEASE INPUT THE CORRECT PIN CODE</P>
+    <label>PINCODE</label><input TYPE="TEXT"></BR>
+        
+    <label>PHONE OF STUDENT</label><input TYPE="TEXT"><BR>
+        
+    <label>PHONE OF GAURDIAN</label><input TYPE="TEXT"></BR>
+    
+    </fieldset></br>
+    </form>
+    
+    <!-- second feildset-->
+    <form>
+<fieldset>
+    <legend id="myLegend" STYLE="text-transform: uppercase;"><STRONG>ACADEMIC INFORMATION</STRONG></legend>
+    
+   <label>COURSE</label><select>
+  <option id="myOption" value="B.Tech">B.Tech</option>
+  <option id="myOption" value="M.Tech">M.Tech</option>
+  <option id="myOption" value="PHD">PHD</option>
+</select><BR>
+    
+       <label> branch</label><input type="text"></BR>
+    
+     <label>Semester</label><select>
+  <option id="myOption" value="1st">1st</option>
+  <option id="myOption" value="2nd">2nd</option>
+  <option id="myOption" value="3rd">3rd</option>
+  <option id="myOption" value="4th">4th</option>
+</select>(for which allotment will be done)<BR>
+    
+    <label>all india rank</label><input type="text">(2018 JEE MAIN GATE)<BR>
+    
+        <label>category rank</label><input type="text">(2018 JEE MAIN GATE)</BR>
+    
+      <label>CGPA</label><input type="text"><br>
+    
+        <label>backlog</label><input type="radio" name="backlog">yes
+        <input type="radio" name="backlog">no</BR>
+    
+        <label>hostel accomodation</label><input type="radio" name="accomo">yes
+        <input type="radio" name="accomo">no (IF ANY)<br>
+        <label>name of hostel</label><input type="text"><br>
+    
+        <label>room number</label><input type="text"><br>
+    
+        </fieldset> </br>
+    </form>
+    
+    <!-- third feildset-->
+    <form>
+<fieldset>
+    <legend id="myLegend" STYLE="text-transform: uppercase;"><STRONG>ACCOunt details for refunding process</STRONG></legend>
+    
+        <label>account holder name</label><input type="text">as per bank passbook<br>
+    
+  <label> account number</label><input type="text"><br>
+    
+    <label>IFSC CODE</label><input type="text"><br>
+    
+    <label>bank name</label><input type="text"><br>
+    
+    <label>bank branch</label><input type="text"><br>
+    
+    </fieldset> 
+    <input type="submit" id="mySubmit" value="Submit the form">
+    </form>
+    </BODY></html>
